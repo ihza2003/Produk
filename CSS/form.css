@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+body {
+    /* background-color: #eee !important; */
+    background: linear-gradient(to bottom, #523f85, #a196bf);
+
+}
+
+.gradient-form {
+    height: 100vh;
+}
+
+.header {
+    color: #573d70;
+
+}
+
+.btn-lgn {
+
+    width: 100% !important;
+    background-color: #573d70 !important;
+    border-radius: 50px !important;
+}
+
+.ket1 {
+    font-size: 15px;
+    font-weight: 200;
+}

@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar-brand {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #4c348d !important;
+}
+
+.active {
+    color: #4c348d !important;
+}
+
+.navbar-nav a {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: rgb(76, 52, 141);
+}
+
+.akun {
+    background-color: #523f85;
+    opacity: 0.9;
+    /* background: linear-gradient(to bottom, #4c348d, #4c3490); */
+}
+
+.akun:hover {
+    background-color: #a196bf !important;
+    color: black !important;
+}
+
+.navbar-scrolled {
+    transition: all 0.7s ease-in-out;
+    box-shadow: 0 5px 7px -3px rgba(0, 0, 0, 0.1), 0 3px 5px -2px rgba(0, 0, 0, 0.06);
+}
+
+
+.content {
+    background-color: #f4faff;
+    margin-top: 50px;
+
+}
+
+.apk {
+    font-size: 50px;
+    font-weight: 800;
+    color: #4f2973;
+
+}
+
+/* .sekolah {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(87, 61, 112);
+} */
+
+.laporan {
+    font-size: 20px;
+    font-weight: 200;
+    border-radius: 40px;
+    background-color: rgb(87, 61, 112);
+}
+
+.laporan:hover {
+    background-color: rgb(87, 46, 126);
+}
+
+.judul2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(87, 61, 112);
+}
+
+.judul1 {
+    font-size: 30px;
+}
+
+.ket-fitur {
+    width: 45%;
+}
+
+.fitur {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.card {
+    width: 75%;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease 0s;
+}
+
+.kartu {
+    max-height: 10rem;
+    background-size: contain;
+}
+
+.tentang {
+    background: linear-gradient(to left, #523f85, #a196bf);
+}
+
+.tentang1 p {
+    font-style: italic;
+
+}
+
+.isi {
+    background-color: rgb(87, 61, 112);
+    font-size: 15px;
+
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .content {
+        margin-top: 70px;
+    }
+
+    .ucapan {
+        text-align: center;
+    }
+
+    .apk {
+        font-size: 40px;
+    }
+
+    .sekolah {
+        font-size: 15px;
+    }
+
+    .perintah {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .perintah img {
+        margin: 10px auto;
+    }
+
+
+}
